@@ -35,6 +35,12 @@ main {
   height: auto;
 }
 
+.similar-event-img {
+  height: 200px;            
+  object-fit: cover;          
+  border-radius: 0.5rem;    
+}
+
 /*     BANNERS     */
 
 .hero-banner {
