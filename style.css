@@ -14,6 +14,8 @@ main {
   flex: 1;
 }
 
+/*     IMAGE      */
+
 .profile-img {
   width: 64px;
   height: 64px;
@@ -26,6 +28,11 @@ main {
   height: 400px;        
   width: 100%;           
   object-fit: cover;    
+}
+
+.presentation-img {
+  max-width: 60%;
+  height: auto;
 }
 
 /*     BANNERS     */
