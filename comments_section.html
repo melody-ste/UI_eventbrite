@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/morph/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container my-5">
+    <div id="comment-list">
+      <!-- Commentaire 1 -->
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body d-flex">
+          <img src="img/profil_1.jpg" alt="Photo de profil" class="rounded-circle me-3" style="width: 48px; height: 48px; object-fit: cover;" />
+          <div>
+            <h6 class="card-title mb-1">Alice Dupont</h6>
+            <p class="card-text mb-1">Super événement, j'ai adoré la conférence et les échanges !</p>
+            <small class="text-muted">Posté il y a 3 heures</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Commentaire 2 -->
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body d-flex">
+          <img src="img/profil_2.jpg" alt="Photo de profil" class="rounded-circle me-3" style="width: 48px; height: 48px; object-fit: cover;" />
+          <div>
+            <h6 class="card-title mb-1">Jean Martin</h6>
+            <p class="card-text mb-1">Très bonne organisation, hâte de participer au prochain.</p>
+            <small class="text-muted">Posté il y a 1 jour</small>
+          </div>
+        </div>
+      </div>
+    
+
+      <!-- Formulaire d'ajout de commentaire -->
+      <form class="mt-4">
+        <div class="mb-3">
+          <label for="comment-text" class="form-label">Ajouter un commentaire</label>
+          <textarea class="form-control" id="comment-text" rows="3" placeholder="Écrivez votre commentaire ici..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Commenter</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
